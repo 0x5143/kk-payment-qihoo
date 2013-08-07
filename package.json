@@ -1,0 +1,25 @@
+{
+  "name": "kk-payment-qihoo",
+  "version": "0.1.0",
+  "description": "kk-payment-qihoo",
+  "private" : false,
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test.js"    
+  },
+  "repository": {
+      "type" : "git",
+      "url" : "https://github.com/huangqingcheng/kk-payment-qihoo.git"
+  },
+  "keywords": [
+    "Node.js",
+    "payment",
+    "qihoo"
+  ],
+  "author": "yunjing <hqc2010@gmail.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies" : {
+      "xmldom" : "latest"
+  }   
+}
