@@ -5,7 +5,7 @@
 
 var conf = {
     "partner" : "",
-    "key" : "",
+    "key" : "1234567890abcdefghijklmnopqrstuv",
     "seller_email" : "",
     "host" : "http://localhost:20502/",
     "cacert" : "cacert.pem",
