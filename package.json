@@ -1,7 +1,7 @@
 {
   "name": "kk-payment-qihoo",
-  "version": "0.1.0",
-  "description": "kk-payment-qihoo",
+  "version": "0.1.2",
+  "description": "One payment module for qihoo in kk project.",
   "private" : false,
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
       "url" : "https://github.com/huangqingcheng/kk-payment-qihoo.git"
   },
   "keywords": [
-    "Node.js",
+    "Node",
     "payment",
     "qihoo"
   ],

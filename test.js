@@ -5,10 +5,11 @@
 
 var conf = {
     "partner" : "",
-    "key" : "1234567890abcdefghijklmnopqrstuv",
-    "seller_email" : "",
-    "host" : "http://localhost:20502/",
-    "cacert" : "cacert.pem",
+    "key" : "testkey",
+    "secret" : "testsecret",
+    //"seller_email" : "",
+    //"host" : "http://localhost:20502/",
+    //"cacert" : "cacert.pem",
     "transport" : "http",
     "input_charset" : "utf-8"
 };
@@ -112,8 +113,8 @@ tests.doOrderCompleted = function() {
     var name = "doOrderCompleted";
     
     qihoo.doOrderCompleted(
-        '192.168.1.71',
-        'order_id=1211090012345678901&app_key=1234567890abcdefghijklmnopqrstuv&product_id=p1&amount=101&app_uid=123456789&app_ext1=XXX201211091985&user_id=987654321&sign_type=md5&gateway_flag=success&sign=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&sign_return=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+        '123.125.80.5',
+        'order_id=1308135278617459061&app_key=testkey&product_id=1&amount=100&app_uid=283181830&user_id=283181830&sign_type=md5&gateway_flag=success&sign=5f89e7bc0f47d72ae5576181e6df2eb3&sign_return=c18f7636a41e06ce803c31554db67321',
         function(text) {
         },
         function(result) {
