@@ -113,9 +113,10 @@ tests.doOrderCompleted = function() {
         function(text) {
             //console.log('check order response is %s', text);
         },
-        function(result) {
+        function(result, order) {
             assert.strictEqual(true, result);
             next(name);
+            result && console.log('order is %j', order);
         }
     );
 };
