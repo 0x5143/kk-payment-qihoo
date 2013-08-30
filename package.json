@@ -1,6 +1,6 @@
 {
   "name": "kk-payment-qihoo",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "One payment module for qihoo in kk project.",
   "private" : false,
   "main": "index.js",
