@@ -1,7 +1,7 @@
 {
   "name": "kk-payment-qihoo",
-  "version": "0.1.7",
-  "description": "One payment module for qihoo in kk project.",
+  "version": "0.1.8",
+  "description": "Node.js verification library for qihoo in app purchase receipts.",
   "private" : false,
   "main": "index.js",
   "scripts": {
@@ -17,8 +17,5 @@
     "qihoo"
   ],
   "author": "yunjing <hqc2010@gmail.com>",
-  "license": "MIT",
-  "readmeFilename": "README.md",
-  "dependencies" : {
-  }   
+  "license": "MIT"
 }
