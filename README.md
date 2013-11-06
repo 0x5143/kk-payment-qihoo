@@ -1,11 +1,14 @@
 kk-payment-qihoo
 ================
 
-This is a on-doing payment module with qihoo for kk-project.
+基于奇虎360的开放平台文档《360手机游戏SDK（企业版【含支付】）接口说明》(for Android)实现，文档内部的最新编号为018，最后更新日期为2013-07-25.
+此模块仍处于不断调整期，用于实际项目需谨慎！
 
 Install with:
 
     npm install kk-payment-qihoo
+    
+如果在项目内使用，建议以 "kk-payment-qihoo" : "0.2.x" 的形式使用，其中第2位（即数值2）的改变可能出现部分对外接口的参数或名称修改！
 
 ## Usage
 Simple example, included as `test.js`:
@@ -41,8 +44,8 @@ qihoo.doOrderCompleted(
 }
 ```
 
-# API
-
+# TODO
+1、添加对订单的主动核实实现，即文档里“订单核实接口”的功能；
 
 ## LICENSE - "MIT License"
 
