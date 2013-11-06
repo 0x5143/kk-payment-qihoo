@@ -1,11 +1,11 @@
 {
   "name": "kk-payment-qihoo",
-  "version": "0.1.8",
+  "version": "0.2.0",
   "description": "Node.js verification library for qihoo in app purchase receipts.",
   "private" : false,
   "main": "index.js",
   "scripts": {
-    "test": "node ./test.js"    
+    "test": "node test.js"    
   },
   "repository": {
       "type" : "git",

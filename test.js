@@ -6,7 +6,8 @@
 var conf = {
     "partner" : "",
     "key" : "testkey",
-    "secret" : "testsecret"
+    "secret" : "testsecret",
+    "sign_type" : "md5"
 };
 
 var Qihoo = require('./index'),

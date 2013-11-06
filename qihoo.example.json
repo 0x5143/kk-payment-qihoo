@@ -1,0 +1,6 @@
+{
+    "partner" : "xxxx",
+    "key" : "xxxx",
+    "secret" : "xxxx",
+    "sign_type" : "md5"
+}
